@@ -47,3 +47,29 @@ process:
     uri:
     uid:
         -
+```
+
+###entity:node
+
+```yml
+
+nid:
+title:
+uid:
+created:
+changed:
+status:         1 for published 0 for unpublished
+promoted:
+sticky:
+revision:
+log:
+language:
+tnid
+translate
+revision_uid
+is_new
+language
+text format
+node statistics
+
+'''
