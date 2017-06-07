@@ -39,5 +39,5 @@ twig.config:
 
 ##Install Useful Modules
 1. Copy <b>Admin_toolbar</b> folder to <b>modules</b> folder.
-2.Use the following Drush Command to enable <b>Admin_toolbar</b> <b>Admin_toolbar</b>
-3.drush en admin_toolbar -y
+2. Use the following Drush Command to enable <b>Admin_toolbar</b> <b>Admin_toolbar</b>
+3. drush en admin_toolbar -y
