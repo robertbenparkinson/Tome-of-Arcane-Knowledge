@@ -34,6 +34,7 @@ bootstrap:
 <b>IMPORTANT!</b>
 * No Tabs!!!! yml hates them
 * Watch the spaces!
-* make sure the css, js and the dependencies lines all line up!!!
+* Make sure the css, js and the dependencies lines all line up!!!
+* Make sure all of the external libraries are in the right place. For example the bootstrap files are placed in the <b>vendor/</b> file in our theme file
 
 
