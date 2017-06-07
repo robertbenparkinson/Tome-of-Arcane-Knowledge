@@ -3,7 +3,7 @@
 ## Clear Register
 drush cr
 
-## Enable Moduel
+## Enable Module
 drush en whatever_module -y 
 
 ## Limited Migration Import
