@@ -23,6 +23,21 @@ $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 ```
 6. Next turn off test modules and themes by setting the following lines of code to FALSE
 ```php
-$settings['extension_discovery_scan_tests'] = TRUE;
+$settings['extension_discovery_scan_tests'] = FALSE;
 ```
-7. Save file and Drush CR.
+7. Next Enable Twig Debugging
+8. In the <b>sites/default</b> copy <b>default.services.yml</b> and rename <b>services.yml</b>
+9. Open and change the following lines of code
+```php
+twig.config:
+    debug: true
+    auto_reload: true
+    cache: false
+ ```
+10. Save all files and Drush CR!
+
+
+##Install Useful Modules
+1. Copy <b>Admin_toolbar</b> folder to <b>modules</b> folder.
+2.Use the following Drush Command to enable <b>Admin_toolbar</b> <b>Admin_toolbar</b>
+3.drush en admin_toolbar -y
