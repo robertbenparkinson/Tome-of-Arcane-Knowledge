@@ -36,8 +36,8 @@ modfit <- train(Species~.,method="rpart",data=training)
 
 ## Create some not so pretty decision trees
 ```r
-plot(fit)
-text(fit)
+plot(modfit)
+text(modfit)
 ```
 
 ## Create fancy decision trees
