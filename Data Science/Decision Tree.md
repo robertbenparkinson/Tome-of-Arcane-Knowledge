@@ -33,7 +33,14 @@ Validation <- iris[-train.flag,]
 ```r
 modfit <- train(Species~.,method="rpart",data=training) 
 ```
-## Create Fancy Decision Chart
+
+## Create some not so pretty decision trees
+```r
+plot(fit)
+text(fit)
+```
+
+## Create fancy decision trees
 ```r
 fancyRpartPlot(modfit$finalModel)
 ```
