@@ -15,14 +15,25 @@ library(e1071)
 ## Down load data set
 ```r
 data("iris")
+```
+
+## Check out the Data
+```r
 summary(iris)
 qplot(Petal.Length,Petal.Width,colour=Species,data=iris)
+```
 
+## Create training and test sets
+```r
 train.flag <- createDataPartition(y=iris$Species,p=0.5,list=FALSE)
 training <- iris[train.flag,]
 Validation <- iris[-train.flag,]
-
+```
+## Grow Decision Tree
+```r
 modfit <- train(Species~.,method="rpart",data=training) 
-
+```
+## Create Fancy Decision Chart
+```r
 fancyRpartPlot(modfit$finalModel)
 ```
