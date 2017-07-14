@@ -23,7 +23,7 @@ for example: (4,4) to (1,1)
 
 ### Minkowski Distance Metric
 
-d(x,y) = (
+d(x,y) = (nEk=1 |xk - yk|r)^1/r
 
 ```{r}
 $$X_i$$
