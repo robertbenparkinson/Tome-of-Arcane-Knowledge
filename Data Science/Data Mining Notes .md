@@ -25,7 +25,7 @@ for example: (4,4) to (1,1)
 
 d(x,y) = (nEk=1 |xk - yk|r)^1/r
 
-$$ \sqrt{\left(x_{1} - x_{2}\right) + \left(y_{1} - y_{2}\right)} $$
+$ \sqrt{\left(x_{1} - x_{2}\right) + \left(y_{1} - y_{2}\right)} $
 
 ```math
 $$ \sqrt{\left(x_{1} - x_{2}\right) + \left(y_{1} - y_{2}\right)} $$
