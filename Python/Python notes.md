@@ -1,6 +1,6 @@
-#Python Basics
+# Python Basics
 
-#Pandas
+# Pandas
 
 ```python
 
@@ -43,7 +43,15 @@
   
   ##upto row five, and both columns
   df.ix[:5, [['column name', 'that other column']]
- 
-  
-  
+   
 ```
+
+## Pyplot
+```{python}
+import matplotlib.pyplot as plt
+plt.plot([1,2,3,4])
+plt.ylabel('some numbers')
+plt.show()
+```
+
+
