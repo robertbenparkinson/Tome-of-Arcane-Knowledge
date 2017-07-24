@@ -54,4 +54,14 @@ plt.ylabel('some numbers')
 plt.show()
 ```
 
+### ply.matshow
+a simple 64*64 matrix  
+
+```{python}
+import matplotlib.pypolt as plt
+import numpy as np
+
+plt.matshow(np.random.rand(64, 64), fignum=100, cmap=plt.cm.flag)
+plt.show()
+```
 
