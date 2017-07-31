@@ -1,5 +1,16 @@
 # Python Basics
 
+# A better way to print things
+
+```{python}
+x = 10
+y = 4
+s = 'I ate ' + repr(x*y) + ' doughnuts!'
+print(s)
+
+>>> 'I ate 40 doughnuts!'
+```
+
 # Pandas
 
 ```python
