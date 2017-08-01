@@ -2,7 +2,7 @@
 
 ## A better way to print things
 
-```{python}
+```python
 x = 10
 y = 4
 s = 'I ate ' + repr(x*y) + ' doughnuts!'
@@ -12,7 +12,7 @@ print(s)
 ```
 ## Add Comas to a string
 
-```{python}
+```python
 x = 25937424601
 print('{0:,d}'.format(x) )
 
