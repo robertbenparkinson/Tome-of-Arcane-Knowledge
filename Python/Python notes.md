@@ -19,6 +19,26 @@ print('{0:,d}'.format(x) )
 # 25,937,424,601
 ```
 
+## Stats
+
+```python
+import numpy as np
+istribution = np.random.normal(.75, size=1000)
+
+np.std(distribution)
+
+import scipy.stats as stats
+stats.kurtosis(distribution)
+
+# a more negative result, the more flat the distribution  
+# a more postive result, the more pointy the distriubiton  
+
+stats.skew(distribution)
+# smaller the result, smaller the skew 
+
+```
+
+
 # Pandas
 
 ```python
