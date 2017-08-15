@@ -19,6 +19,13 @@ print('{0:,d}'.format(x) )
 # 25,937,424,601
 ```
 
+## 2 Decimal Places
+
+```python
+x = 3.1415926	
+print('{:.2f}'.format(x) )
+```
+
 ## Stats
 
 ```python
