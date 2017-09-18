@@ -111,3 +111,10 @@ plt.matshow(np.random.rand(64, 64), fignum=100, cmap=plt.cm.flag)
 plt.show()
 ```
 
+## Convert Index into date_time 
+```{python}
+import pandas as pd
+df.index = pd.to_datetime(df.index)
+```
+
+
