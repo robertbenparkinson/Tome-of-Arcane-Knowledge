@@ -80,6 +80,16 @@ Go to admin/structure/media
 ## Entity Browser View
 
 ## Field to attach to content
+- attach new field to 
+- entity reference 
+  - other
+  
+  Type of item references
+  - Media
+  - Unlimited
+
+
+
 
 ## Create a new Image Style
 - goto config/media/image-styles
