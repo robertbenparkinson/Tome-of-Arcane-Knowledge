@@ -79,6 +79,7 @@ Go to admin/structure/media
   
 ## Entity Browser View
 
+## Field to attach to content
 
 ## Create a new Image Style
 - goto config/media/image-styles
