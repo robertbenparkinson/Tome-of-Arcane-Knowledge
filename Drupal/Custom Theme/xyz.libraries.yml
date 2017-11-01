@@ -1,0 +1,27 @@
+## The xyz.libraries.yml file defines the libraries used by the custom theme
+
+bootstrap:
+  version: 3.3.7
+  css:
+    theme:
+      vendor/bootstrap/css/bootstrap.min.css: {}
+      vendor/bootstrap/css/bootstrap-theme.min.css: {}
+  js:
+    vendor/bootstrap/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
+
+base:
+  version: VERSION
+  css:
+    theme: 
+      css/bibi_styles.css: {}
+
+font-awesome:
+  version: VERSION
+  css:
+    theme:
+      vendor/font-awesome/css/font-awesome.css: {}
+      vendor/font-awesome/css/font-awesome.min.css: {}
+  dependencies:
+    - core/jquery
