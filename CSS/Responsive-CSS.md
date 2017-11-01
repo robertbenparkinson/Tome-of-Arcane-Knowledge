@@ -17,7 +17,7 @@ body {
 }
 
 /* For width 400px and larger: */
-/* When the screen is less than 400px it will change the background color to green
+/* When the screen is less than 400px it will change the background color to green */
 @media only screen and (min-width: 400px) {
     body { 
        background-color: green; 
