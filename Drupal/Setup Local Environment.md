@@ -2,13 +2,13 @@
 
 
 ## Create local settings files
-Go to sites folder
-copy examples.settings.local.php file
-move file to sites/default folder 
-rename file to settings.local.php
-open settings.php file in sites/default folder
-uncomment the if statement that will allow settings.local.php file (towards the bottom of the file)
-save settings.php file
+Go to sites folder  
+copy examples.settings.local.php file  
+move file to sites/default folder  
+rename file to settings.local.php  
+open settings.php file in sites/default folder  
+uncomment the if statement that will allow settings.local.php file (towards the bottom of the file)  
+save settings.php file  
 
 ## Disable CSS and JS Aggregation 
 open settings.local.php file located in sites/default folder
