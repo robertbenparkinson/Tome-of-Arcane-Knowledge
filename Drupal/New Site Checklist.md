@@ -51,6 +51,18 @@
 
 13. Front Page?
 
+13. What menus will you need?
+- Main menu
+- Admin menu
+- Footer menu
+
+What regions will you need?
+- Header?
+- Footer
+- Main Content?
+- Sidebars? Left? Right? None?
+
+
 Do you want a custom theme?
 --sub theme 
 --are you sure?
