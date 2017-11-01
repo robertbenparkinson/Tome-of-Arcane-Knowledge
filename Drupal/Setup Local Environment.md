@@ -29,7 +29,7 @@ save the **settings.local.php** file.
 go to **sites/default** folder  
 copy and rename **default.services.yml** file to **services.yml**  
 open **services.yml** file  
-set the following statements to true  
+set the following statements 
 ```yml
 twig.config: 
   debug : true  
