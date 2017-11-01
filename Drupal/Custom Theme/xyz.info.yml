@@ -1,0 +1,23 @@
+## A custom Drupal 8 theme
+## the name of this theme is xyz
+
+## the following section is required
+name: xyz
+type: theme
+description: 'A custome theme for xyz'
+core: 8.x
+base theme: false
+
+## the regions sections defines the various regions used in your theme
+## blocks are placed in these regions
+## extra regions can be added at any time
+regions:
+  header: 'The header region'
+  content: 'The content region'
+  footer: 'the footer region 
+  
+## the libraries section adds the libaries that are defined in the xyz.libraries.yml file
+libaries:
+  - xyz/bootstrap
+  - xyz/font-awesome
+  - xyz/base
