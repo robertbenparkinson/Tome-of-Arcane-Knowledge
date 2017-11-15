@@ -13,3 +13,25 @@ name_of_example_element:
   '#title_display': before                  ##  places the title of the element before the dropdown select element
 
 ```
+## basic webform element template
+
+```yml
+
+  '#type': 
+  '#title': 
+  '#description': 
+  '#open': 
+         
+      '#type':
+      '#title':
+      '#title_display':
+      '#options':
+      
+      '#default_value': 
+      '#empty_option': 
+      '#empty_value': 
+      '#states':
+        visible:
+          ':input[name=""]':
+            value: 
+```
