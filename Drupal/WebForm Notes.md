@@ -65,5 +65,21 @@ name_of_example_element:
              - value: 2
  ```           
 
+## Types
 
+'#type' : details
+'#type' : radios
+'#type' : textfiled
+'#type' : number
+'#type' : select
+'#type' : gender
+'#type' : maritial_status
+'#type' : employment_status
+'#type' : number
+    '#min': 0
+    '#max': 10
+    '#step': 1
+'#type' : date
+'#datepicker': true
+'#date_data_format': 'D, m/d/Y'
 
