@@ -42,5 +42,28 @@ name_of_example_element:
 
 ```
 
+## Conditional Logic States
+
+### Single Value
+
+```yml
+      '#states':
+       - visible:
+         - ':input[name="example"]':
+           - value: 1
+```
+
+### multiple Values
+
+```yml            
+       '#states':
+         - visible:
+           - ':input[name="example"]':
+             - value: 1
+           -or
+           - ':input[name="example"]':
+             - value: 2
+ ```           
+
 
 
