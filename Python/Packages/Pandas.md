@@ -68,5 +68,21 @@ print(x)
 
 ## Import Data from CSV
 ```Python
-df = pd.read_csv('example.csv', sep=',')
+df = pd.read_csv('example.csv', sep=',', header=0, index_col='id')
 ```
+
+## DataFrame Methods
+
+```python
+
+df.head() # retreives the first five
+df.head(10) # retreives the first ten
+df.tail() # retreives the last five
+df.info() # 
+len(df) # length of df
+
+```
+
+
+
+
