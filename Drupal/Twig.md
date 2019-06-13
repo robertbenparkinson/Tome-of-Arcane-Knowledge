@@ -1,13 +1,36 @@
-## Twig
+# Twig Notes
 
-## Comment
+## A Comment in Twig
+
+```twig
 {# ... #}
+```
 
-## print tag 
+## Print Tag
+
+```twig
 {{ ... }}
+```
 
-## logic statement or function 
+## logic statement or function
+
+```twig
 {% ... %}
+```
 
-## dump
-{{ dump(name) }}
+## for loop
+
+```twig
+{% for item in list }
+    {{ item }}
+{% endfor %}
+```
+
+## dump and knit
+
+```twig
+{{ dump(example) }}
+{{ kint(exmaple) }}
+```
+
+
