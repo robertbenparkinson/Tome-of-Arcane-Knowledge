@@ -1,7 +1,6 @@
 # Full Life Cyclye from Custom Module to Twig
 The full Drupal 8 life cycle from custome module to twig. 
 
-
 ## Build a new Module and Controller using Drupal Console
 
 Build a new module using Drupal Console gm command
@@ -224,6 +223,10 @@ gorn_name = "Betty-the-Drupal-Gorn"
 {{ gorn_name|replace({ '-': ' '}) }}
 > "Betty the DrupalGorn"
 ```
+
+## Results
+
+![Drupal Gorn](images/drupal_gorn.png)
 
 
 
